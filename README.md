@@ -13,7 +13,7 @@ Estas informações podem ser úteis para consulta rápida durante o desenvolvim
 |--------------|--------------------------------------------------------|
 | `CTRL + o`   | Salvar como — use quando o arquivo nunca foi salvo     |
 | `CTRL + x`   | Fechar o editor Nano                                   |
-| `CTRL + c`   | Cancelar ação atual                                    |
+| `CTRL + c`   | Cancelar ação atual / Mostrar posição do cursor        |
 | `CTRL + s`   | Salvar arquivo — use em arquivos já existentes         |
 | `CTRL + g`   | Abrir menu de ajuda                                    |
 
@@ -62,11 +62,55 @@ nano arquivo1.txt arquivo2.txt arquivo3.txt
 
 ---
 
-## 🔍 Busca no Texto
-| Comando      | Ação                            |
-|--------------|---------------------------------|
-| `CTRL + w`   | Localizar texto no documento    |
-| `ALT + w`    | Ir para a próxima ocorrência    |
+## 🔍 Busca e Substituição
+
+| Comando         | Ação                                 |
+|-----------------|--------------------------------------|
+| `CTRL + w`      | Localizar texto no documento         |
+| `ALT + w`       | Ir para a próxima ocorrência         |
+| `ALT + c`       | Ativar/desativar busca case sensitive|
+| `ALT + r`       | Ativar busca por regex               |
+| `CTRL + \`      | Substituir ocorrência                |
+
+---
+
+## 🧭 Navegação no Arquivo
+
+| Comando             | Ação                                 |
+|---------------------|--------------------------------------|
+| `ALT + \`           | Ir para o início do arquivo          |
+| `ALT + /`           | Ir para o final do arquivo           |
+| `CTRL + a`          | Ir para o início da linha            |
+| `CTRL + e`          | Ir para o final da linha             |
+| `CTRL + →`          | Avançar para a próxima palavra       |
+| `CTRL + ←`          | Retornar para a palavra anterior     |
+
+---
+
+## ⚙️ Funções Adicionais
+
+| Comando              | Ação                                         |
+|----------------------|----------------------------------------------|
+| `ALT + x`            | Desabilitar função de ajuda                  |
+| `ALT + y`            | Habilitar/desabilitar marcação colorida      |
+| `CTRL + c`           | Mostrar posição do cursor                    |
+
+---
+
+## 📝 Identação e Comentários
+
+| Comando                | Ação                                         |
+|------------------------|----------------------------------------------|
+| `ALT + SHIFT + }`      | Avançar identação                            |
+| `ALT + SHIFT + {`      | Retornar identação                           |
+| `ALT + 3`              | Comentar/descomentar texto selecionado       |
+
+---
+
+## ⚙️ Arquivos de Configuração
+
+- **Global:** `/etc/nanorc`
+- **Local:** `~/.nanorc`
 
 ---
 
